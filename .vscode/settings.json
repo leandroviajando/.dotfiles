@@ -1,0 +1,88 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit",
+    "source.unusedImports": "explicit"
+  },
+  "editor.fontFamily": "Monaco, Monaco, 'Courier New', monospace",
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "CODEOWNERS": "plaintext",
+    "*.m": "matlab"
+  },
+  "files.autoSave": "afterDelay",
+  "files.insertFinalNewline": true,
+  "github.copilot.enable": {
+    "python": true,
+    "dotenv": false,
+    "ini": false,
+    "json": false,
+    "latex": false,
+    "markdown": false,
+    "plaintext": false,
+    "scminput": false,
+    "toml": true,
+    "yaml": false,
+    "xml": false
+  },
+  "workbench.colorTheme": "Ayu Light",
+  "workbench.iconTheme": "vscode-icons",
+  "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google}",
+  "[c]": {
+    "editor.tabSize": 2
+  },
+  "[cpp]": {
+    "editor.tabSize": 2
+  },
+  "[groovy]": {
+    "editor.defaultFormatter": "marlon407.code-groovy",
+    "editor.tabSize": 2
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[latex]": {
+    "editor.defaultFormatter": "lenagain.latexindent"
+  },
+  "[makefile]": {
+    "editor.tabSize": 2
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "isort.args": ["--profile", "black"],
+  "mypy.runUsingActiveInterpreter": true,
+  "notebook.editorOptionsCustomizations": {
+    "editor.tabSize": 4,
+    "editor.indentSize": 4,
+    "editor.insertSpaces": true
+  },
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": ["."],
+  "[shellscript]": {
+    "editor.tabSize": 2
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "be5invis.toml"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "rust-analyzer.workspace.discoverConfig": null
+}
